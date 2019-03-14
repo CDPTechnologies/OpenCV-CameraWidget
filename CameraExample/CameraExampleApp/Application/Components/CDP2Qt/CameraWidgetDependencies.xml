@@ -1,0 +1,16 @@
+<Component Model='CameraWidgetLib.CameraWidgetDependencies' Name='CameraWidgetDependencies' src='Components/CDP2Qt/CameraWidgetDependencies.xml' Description="Empty component to bring in library dependencies." Activate="0">
+  <fs>5</fs>
+
+  <Signals>
+    <Signal Description="Process run time each s." Input="0" Model="CDPSignal&lt;double&gt;" Name="Process Timer" Type="double" Unit="s/s"></Signal>
+    <Signal Description="Process interval [s]." Input="0" Model="CDPSignal&lt;double&gt;" Name="Process Period" Type="double" Unit="s"></Signal>
+  </Signals>
+
+  <Alarms>
+    <Alarm Description="A component was suspended!" Name="Component Suspended" Text="Component was suspended!"></Alarm>
+  </Alarms>
+
+  <Timers>
+    <Timer Description="Timer to measure CDPComponent processing." Model="CDPTimer" Name="ProcessTimer"></Timer>
+  </Timers>
+</Component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Model Name="CameraWidgetLib.CameraWidgetDependencies">
+
+  <ModelTypeClass>C++</ModelTypeClass>
+  <BaseModel>CDPComponent</BaseModel>
+  <Element Name="Priority" Value="normal"></Element>
+  <Element Name="fs" Value="5"></Element>
+
+  <Attributes>
+     <Attribute Name="Description" Value="Empty component to bring in library dependencies." Type="string"/>
+     <Attribute Name="Model" Value="CameraWidgetLib.CameraWidgetDependencies" Type="string" Description="Implementation model used." SaveOnChange="0" Required="1" ReadOnly="1"/>
+     <Attribute Name="Activate" Value="0" Type="double"/>
+  </Attributes>
+
+</Model>

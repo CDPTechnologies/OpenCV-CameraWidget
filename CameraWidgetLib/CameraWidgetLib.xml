@@ -1,0 +1,5 @@
+<Library Name="CameraWidgetLib">
+ <Models>
+  <Model Name="CameraWidgetLib.CameraWidgetDependencies"/>
+ </Models>
+</Library>
